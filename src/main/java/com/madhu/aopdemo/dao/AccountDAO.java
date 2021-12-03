@@ -29,7 +29,7 @@ public class AccountDAO {
 		myAccounts.add(new Account("Toyota","Camry"));
 		myAccounts.add(new Account("Honda","Accord"));
 		myAccounts.add(new Account("Audi","A8"));
-		myAccounts.add(null);	//THIS WILL THROW EXCEPTION IN THE LOOP
+		//myAccounts.add(null);	//THIS WILL THROW EXCEPTION IN THE LOOP
 		
 		// loop through accounts
 		for (Account tempAccount : myAccounts) {
